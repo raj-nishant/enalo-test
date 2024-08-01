@@ -1,0 +1,4 @@
+.placeholder-custom .ant-input::placeholder {
+    color: #737373 !important;
+  }
+  

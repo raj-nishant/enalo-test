@@ -1,6 +1,4 @@
 import { useState, useEffect } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import { Form, Input, Button, message, Select } from "antd";
 import "./App.css";
 
@@ -76,7 +74,7 @@ function App() {
               className="w-full"
             >
               <Input
-                placeholder="Email *"
+                placeholder="example@gmail.com *"
                 className="w-full bg-[#F9F9F9] h-12"
               />
             </Form.Item>
@@ -133,16 +131,17 @@ function App() {
           </div>
         )}
         <Form.Item>
-          <div className="flex justify-center">
-            <Button
-              type="primary"
-              htmlType="submit"
-              className="font-bold w-1/2 h-14 bg-[#23A6F0] hover:bg-blue-600"
-            >
-              Book Appointment
-            </Button>
-          </div>
-        </Form.Item>
+  <div className="flex justify-center">
+    <Button
+      type="primary"
+      htmlType="submit"
+      className="font-bold h-14 bg-[#23A6F0] hover:bg-blue-600 w-full md:w-1/2"
+    >
+      Book Appointment
+    </Button>
+  </div>
+</Form.Item>
+
       </Form>
     </div>
   );
